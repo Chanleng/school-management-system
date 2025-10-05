@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('user_id')->constrained('users')->onDelete('cascade');
             $table->tinyInteger('is_head')->default(0);
+            $table->foreignId('department_id')->constrained('departments')->onDelete('cascade');
             $table->timestamps();
         });
     }

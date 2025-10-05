@@ -440,33 +440,13 @@
 
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
-                                        <label for="teacherId" class="form-label fw-medium">
-                                            Teacher ID
-                                            <span class="badge bg-success bg-opacity-25 text-success ms-2">Auto-generated</span>
-                                        </label>
-                                        <input type="text" class="form-control border-2 bg-light" id="teacherId" name="teacherId" 
-                                               placeholder="Will be generated automatically" readonly>
-                                        <small class="text-muted">ID will be assigned upon saving</small>
-                                    </div>
-
-                                    <div class="col-md-6 mb-3">
                                         <label for="subject" class="form-label fw-medium">
-                                            Subject <span class="text-danger">*</span>
+                                            Department <span class="text-danger">*</span>
                                         </label>
                                         <select class="form-select border-2" id="subject" name="subject" required>
                                             <option value="">Select Subject</option>
-                                            <option value="mathematics">Mathematics</option>
-                                            <option value="english">English</option>
-                                            <option value="science">Science</option>
-                                            <option value="physics">Physics</option>
-                                            <option value="chemistry">Chemistry</option>
-                                            <option value="biology">Biology</option>
-                                            <option value="history">History</option>
-                                            <option value="geography">Geography</option>
-                                            <option value="computer_science">Computer Science</option>
-                                            <option value="physical_education">Physical Education</option>
-                                            <option value="art">Art</option>
-                                            <option value="music">Music</option>
+                                            <option value="mathematics">Computer Science</option>
+                                        
                                         </select>
                                         <div class="invalid-feedback">Please select a subject.</div>
                                     </div>

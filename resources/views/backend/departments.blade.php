@@ -183,10 +183,7 @@
                                 <select class="form-select" id="departmentHead" name="departmentHead" required>
                                     <option value="">Select Department Head</option>
                                     <option value="1">Dr. Sokha</option>
-                                    <option value="2">Dr. Dara</option>
-                                    <option value="3">Dr. Pisach</option>
-                                    <option value="4">Prof. Vanna</option>
-                                    <option value="5">Dr. Chantha</option>
+                                   
                                 </select>
                             </div>
                             <div class="mb-3">
